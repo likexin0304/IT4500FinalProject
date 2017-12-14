@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		152E72F71FD7EBAB00124A7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152E72F61FD7EBAB00124A7E /* AppDelegate.swift */; };
+		152E72F91FD7EBAB00124A7E /* DashBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152E72F81FD7EBAB00124A7E /* DashBoardViewController.swift */; };
+		152E72FC1FD7EBAB00124A7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 152E72FA1FD7EBAB00124A7E /* Main.storyboard */; };
+		152E72FE1FD7EBAB00124A7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 152E72FD1FD7EBAB00124A7E /* Assets.xcassets */; };
+		152E73011FD7EBAB00124A7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 152E72FF1FD7EBAB00124A7E /* LaunchScreen.storyboard */; };
+		152E730C1FD7EBAB00124A7E /* RoommatesToDoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152E730B1FD7EBAB00124A7E /* RoommatesToDoTests.swift */; };
+		152E73171FD7EBAB00124A7E /* RoommatesToDoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152E73161FD7EBAB00124A7E /* RoommatesToDoUITests.swift */; };
+		152E73261FD7F45100124A7E /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 152E73251FD7F45100124A7E /* CloudKit.framework */; };
+		152E73281FD9003600124A7E /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152E73271FD9003600124A7E /* Model.swift */; };
+		152E732A1FD909FC00124A7E /* CloudKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152E73291FD909FC00124A7E /* CloudKitManager.swift */; };
+		152E732C1FD93FF100124A7E /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152E732B1FD93FF100124A7E /* Array+Extension.swift */; };
+		152E732E1FD941D600124A7E /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152E732D1FD941D600124A7E /* Date+Extension.swift */; };
+		152E73301FD959C400124A7E /* ChoreEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152E732F1FD959C400124A7E /* ChoreEditViewController.swift */; };
+		152E73321FDA631200124A7E /* ChoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152E73311FDA631200124A7E /* ChoreViewController.swift */; };
+		152E73341FDBCD2A00124A7E /* ExpenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152E73331FDBCD2A00124A7E /* ExpenseViewController.swift */; };
+		152E73361FDBCEF300124A7E /* ExpenseEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152E73351FDBCEF300124A7E /* ExpenseEditViewController.swift */; };
+		152E73381FDBD3DD00124A7E /* ExpenseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152E73371FDBD3DD00124A7E /* ExpenseTableViewCell.swift */; };
+		152E733A1FDCDDF600124A7E /* ChoreDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152E73391FDCDDF600124A7E /* ChoreDetailViewController.swift */; };
+		152E733C1FDCDE7600124A7E /* ExpenseDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152E733B1FDCDE7600124A7E /* ExpenseDetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		152E73081FD7EBAB00124A7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 152E72EB1FD7EBAB00124A7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 152E72F21FD7EBAB00124A7E;
+			remoteInfo = RoommatesToDo;
+		};
+		152E73131FD7EBAB00124A7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 152E72EB1FD7EBAB00124A7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 152E72F21FD7EBAB00124A7E;
+			remoteInfo = RoommatesToDo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		152E72F31FD7EBAB00124A7E /* Roommatly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roommatly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		152E72F61FD7EBAB00124A7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		152E72F81FD7EBAB00124A7E /* DashBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardViewController.swift; sourceTree = "<group>"; };
+		152E72FB1FD7EBAB00124A7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		152E72FD1FD7EBAB00124A7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		152E73001FD7EBAB00124A7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		152E73021FD7EBAB00124A7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		152E73071FD7EBAB00124A7E /* RoommatlyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoommatlyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		152E730B1FD7EBAB00124A7E /* RoommatesToDoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoommatesToDoTests.swift; sourceTree = "<group>"; };
+		152E730D1FD7EBAB00124A7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		152E73121FD7EBAB00124A7E /* RoommatlyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoommatlyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		152E73161FD7EBAB00124A7E /* RoommatesToDoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoommatesToDoUITests.swift; sourceTree = "<group>"; };
+		152E73181FD7EBAB00124A7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		152E73241FD7F44E00124A7E /* RoommatesToDo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RoommatesToDo.entitlements; sourceTree = "<group>"; };
+		152E73251FD7F45100124A7E /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		152E73271FD9003600124A7E /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		152E73291FD909FC00124A7E /* CloudKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitManager.swift; sourceTree = "<group>"; };
+		152E732B1FD93FF100124A7E /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
+		152E732D1FD941D600124A7E /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		152E732F1FD959C400124A7E /* ChoreEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoreEditViewController.swift; sourceTree = "<group>"; };
+		152E73311FDA631200124A7E /* ChoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoreViewController.swift; sourceTree = "<group>"; };
+		152E73331FDBCD2A00124A7E /* ExpenseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseViewController.swift; sourceTree = "<group>"; };
+		152E73351FDBCEF300124A7E /* ExpenseEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseEditViewController.swift; sourceTree = "<group>"; };
+		152E73371FDBD3DD00124A7E /* ExpenseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTableViewCell.swift; sourceTree = "<group>"; };
+		152E73391FDCDDF600124A7E /* ChoreDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoreDetailViewController.swift; sourceTree = "<group>"; };
+		152E733B1FDCDE7600124A7E /* ExpenseDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseDetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		152E72F01FD7EBAB00124A7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				152E73261FD7F45100124A7E /* CloudKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		152E73041FD7EBAB00124A7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		152E730F1FD7EBAB00124A7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		152E72EA1FD7EBAB00124A7E = {
+			isa = PBXGroup;
+			children = (
+				152E72F51FD7EBAB00124A7E /* RoommatesToDo */,
+				152E730A1FD7EBAB00124A7E /* RoommatesToDoTests */,
+				152E73151FD7EBAB00124A7E /* RoommatesToDoUITests */,
+				152E72F41FD7EBAB00124A7E /* Products */,
+				44D9D9B2DE6C143E71ADEFB9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		152E72F41FD7EBAB00124A7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				152E72F31FD7EBAB00124A7E /* Roommatly.app */,
+				152E73071FD7EBAB00124A7E /* RoommatlyTests.xctest */,
+				152E73121FD7EBAB00124A7E /* RoommatlyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		152E72F51FD7EBAB00124A7E /* RoommatesToDo */ = {
+			isa = PBXGroup;
+			children = (
+				152E73241FD7F44E00124A7E /* RoommatesToDo.entitlements */,
+				152E72F61FD7EBAB00124A7E /* AppDelegate.swift */,
+				152E732B1FD93FF100124A7E /* Array+Extension.swift */,
+				152E732D1FD941D600124A7E /* Date+Extension.swift */,
+				152E72F81FD7EBAB00124A7E /* DashBoardViewController.swift */,
+				152E73271FD9003600124A7E /* Model.swift */,
+				152E73291FD909FC00124A7E /* CloudKitManager.swift */,
+				152E73311FDA631200124A7E /* ChoreViewController.swift */,
+				152E732F1FD959C400124A7E /* ChoreEditViewController.swift */,
+				152E73331FDBCD2A00124A7E /* ExpenseViewController.swift */,
+				152E73351FDBCEF300124A7E /* ExpenseEditViewController.swift */,
+				152E73371FDBD3DD00124A7E /* ExpenseTableViewCell.swift */,
+				152E73391FDCDDF600124A7E /* ChoreDetailViewController.swift */,
+				152E733B1FDCDE7600124A7E /* ExpenseDetailViewController.swift */,
+				152E72FA1FD7EBAB00124A7E /* Main.storyboard */,
+				152E72FD1FD7EBAB00124A7E /* Assets.xcassets */,
+				152E72FF1FD7EBAB00124A7E /* LaunchScreen.storyboard */,
+				152E73021FD7EBAB00124A7E /* Info.plist */,
+			);
+			path = RoommatesToDo;
+			sourceTree = "<group>";
+		};
+		152E730A1FD7EBAB00124A7E /* RoommatesToDoTests */ = {
+			isa = PBXGroup;
+			children = (
+				152E730B1FD7EBAB00124A7E /* RoommatesToDoTests.swift */,
+				152E730D1FD7EBAB00124A7E /* Info.plist */,
+			);
+			path = RoommatesToDoTests;
+			sourceTree = "<group>";
+		};
+		152E73151FD7EBAB00124A7E /* RoommatesToDoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				152E73161FD7EBAB00124A7E /* RoommatesToDoUITests.swift */,
+				152E73181FD7EBAB00124A7E /* Info.plist */,
+			);
+			path = RoommatesToDoUITests;
+			sourceTree = "<group>";
+		};
+		44D9D9B2DE6C143E71ADEFB9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				152E73251FD7F45100124A7E /* CloudKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		152E72F21FD7EBAB00124A7E /* Roommatly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 152E731B1FD7EBAB00124A7E /* Build configuration list for PBXNativeTarget "Roommatly" */;
+			buildPhases = (
+				152E72EF1FD7EBAB00124A7E /* Sources */,
+				152E72F01FD7EBAB00124A7E /* Frameworks */,
+				152E72F11FD7EBAB00124A7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Roommatly;
+			productName = RoommatesToDo;
+			productReference = 152E72F31FD7EBAB00124A7E /* Roommatly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		152E73061FD7EBAB00124A7E /* RoommatlyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 152E731E1FD7EBAB00124A7E /* Build configuration list for PBXNativeTarget "RoommatlyTests" */;
+			buildPhases = (
+				152E73031FD7EBAB00124A7E /* Sources */,
+				152E73041FD7EBAB00124A7E /* Frameworks */,
+				152E73051FD7EBAB00124A7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				152E73091FD7EBAB00124A7E /* PBXTargetDependency */,
+			);
+			name = RoommatlyTests;
+			productName = RoommatesToDoTests;
+			productReference = 152E73071FD7EBAB00124A7E /* RoommatlyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		152E73111FD7EBAB00124A7E /* RoommatlyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 152E73211FD7EBAB00124A7E /* Build configuration list for PBXNativeTarget "RoommatlyUITests" */;
+			buildPhases = (
+				152E730E1FD7EBAB00124A7E /* Sources */,
+				152E730F1FD7EBAB00124A7E /* Frameworks */,
+				152E73101FD7EBAB00124A7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				152E73141FD7EBAB00124A7E /* PBXTargetDependency */,
+			);
+			name = RoommatlyUITests;
+			productName = RoommatesToDoUITests;
+			productReference = 152E73121FD7EBAB00124A7E /* RoommatlyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		152E72EB1FD7EBAB00124A7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Anson;
+				TargetAttributes = {
+					152E72F21FD7EBAB00124A7E = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+					152E73061FD7EBAB00124A7E = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 152E72F21FD7EBAB00124A7E;
+					};
+					152E73111FD7EBAB00124A7E = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 152E72F21FD7EBAB00124A7E;
+					};
+				};
+			};
+			buildConfigurationList = 152E72EE1FD7EBAB00124A7E /* Build configuration list for PBXProject "Roommatly" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 152E72EA1FD7EBAB00124A7E;
+			productRefGroup = 152E72F41FD7EBAB00124A7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				152E72F21FD7EBAB00124A7E /* Roommatly */,
+				152E73061FD7EBAB00124A7E /* RoommatlyTests */,
+				152E73111FD7EBAB00124A7E /* RoommatlyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		152E72F11FD7EBAB00124A7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				152E73011FD7EBAB00124A7E /* LaunchScreen.storyboard in Resources */,
+				152E72FE1FD7EBAB00124A7E /* Assets.xcassets in Resources */,
+				152E72FC1FD7EBAB00124A7E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		152E73051FD7EBAB00124A7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		152E73101FD7EBAB00124A7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		152E72EF1FD7EBAB00124A7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				152E73281FD9003600124A7E /* Model.swift in Sources */,
+				152E732C1FD93FF100124A7E /* Array+Extension.swift in Sources */,
+				152E73341FDBCD2A00124A7E /* ExpenseViewController.swift in Sources */,
+				152E73361FDBCEF300124A7E /* ExpenseEditViewController.swift in Sources */,
+				152E72F91FD7EBAB00124A7E /* DashBoardViewController.swift in Sources */,
+				152E732A1FD909FC00124A7E /* CloudKitManager.swift in Sources */,
+				152E73321FDA631200124A7E /* ChoreViewController.swift in Sources */,
+				152E72F71FD7EBAB00124A7E /* AppDelegate.swift in Sources */,
+				152E73381FDBD3DD00124A7E /* ExpenseTableViewCell.swift in Sources */,
+				152E733A1FDCDDF600124A7E /* ChoreDetailViewController.swift in Sources */,
+				152E732E1FD941D600124A7E /* Date+Extension.swift in Sources */,
+				152E73301FD959C400124A7E /* ChoreEditViewController.swift in Sources */,
+				152E733C1FDCDE7600124A7E /* ExpenseDetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		152E73031FD7EBAB00124A7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				152E730C1FD7EBAB00124A7E /* RoommatesToDoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		152E730E1FD7EBAB00124A7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				152E73171FD7EBAB00124A7E /* RoommatesToDoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		152E73091FD7EBAB00124A7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 152E72F21FD7EBAB00124A7E /* Roommatly */;
+			targetProxy = 152E73081FD7EBAB00124A7E /* PBXContainerItemProxy */;
+		};
+		152E73141FD7EBAB00124A7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 152E72F21FD7EBAB00124A7E /* Roommatly */;
+			targetProxy = 152E73131FD7EBAB00124A7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		152E72FA1FD7EBAB00124A7E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				152E72FB1FD7EBAB00124A7E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		152E72FF1FD7EBAB00124A7E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				152E73001FD7EBAB00124A7E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		152E73191FD7EBAB00124A7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		152E731A1FD7EBAB00124A7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		152E731C1FD7EBAB00124A7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RoommatesToDo/RoommatesToDo.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4FNJNUQ3AD;
+				INFOPLIST_FILE = RoommatesToDo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RoommatesToDo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		152E731D1FD7EBAB00124A7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RoommatesToDo/RoommatesToDo.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4FNJNUQ3AD;
+				INFOPLIST_FILE = RoommatesToDo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RoommatesToDo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		152E731F1FD7EBAB00124A7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9A8N83872W;
+				INFOPLIST_FILE = RoommatesToDoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Anson.io.RoommatesToDoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Roommatly.app/Roommatly";
+			};
+			name = Debug;
+		};
+		152E73201FD7EBAB00124A7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9A8N83872W;
+				INFOPLIST_FILE = RoommatesToDoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Anson.io.RoommatesToDoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Roommatly.app/Roommatly";
+			};
+			name = Release;
+		};
+		152E73221FD7EBAB00124A7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9A8N83872W;
+				INFOPLIST_FILE = RoommatesToDoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Anson.io.RoommatesToDoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RoommatesToDo;
+			};
+			name = Debug;
+		};
+		152E73231FD7EBAB00124A7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9A8N83872W;
+				INFOPLIST_FILE = RoommatesToDoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Anson.io.RoommatesToDoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RoommatesToDo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		152E72EE1FD7EBAB00124A7E /* Build configuration list for PBXProject "Roommatly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				152E73191FD7EBAB00124A7E /* Debug */,
+				152E731A1FD7EBAB00124A7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		152E731B1FD7EBAB00124A7E /* Build configuration list for PBXNativeTarget "Roommatly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				152E731C1FD7EBAB00124A7E /* Debug */,
+				152E731D1FD7EBAB00124A7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		152E731E1FD7EBAB00124A7E /* Build configuration list for PBXNativeTarget "RoommatlyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				152E731F1FD7EBAB00124A7E /* Debug */,
+				152E73201FD7EBAB00124A7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		152E73211FD7EBAB00124A7E /* Build configuration list for PBXNativeTarget "RoommatlyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				152E73221FD7EBAB00124A7E /* Debug */,
+				152E73231FD7EBAB00124A7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 152E72EB1FD7EBAB00124A7E /* Project object */;
+}
